@@ -53,3 +53,7 @@ const students = [
 
   const studentWithIds = students.map(student => [student.name, student.id, student.profession]);
   console.log(studentWithIds)
+
+  const studentWithIds1 = students.map(student => student.id);
+  console.log(studentWithIds1)
+  
